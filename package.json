@@ -7,15 +7,18 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "cryptr": "^4.0.2",
+    "pathfinder-guid": "^1.0.4",
     "register-service-worker": "^1.5.2",
     "vue": "^2.5.17",
+    "vue-localforage": "^0.2.5",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.2.0",
-    "@vue/cli-plugin-pwa": "^3.2.0",
-    "@vue/cli-service": "^3.2.0",
+    "@vue/cli-plugin-babel": "^3.2.2",
+    "@vue/cli-plugin-pwa": "^3.2.2",
+    "@vue/cli-service": "^3.2.2",
     "vue-template-compiler": "^2.5.17"
   },
   "postcss": {
